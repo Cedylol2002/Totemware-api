@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 @RestController
-@CrossOrigin("http://localhost:4200")
+@CrossOrigin("https://totemware-api.herokuapp.com/")
 @RequestMapping("totem/api/v1")
 public class NewsController {
     private final NewsService newsService;

@@ -13,5 +13,6 @@ public class NewsModel {
     @Id
     private String id;
     private String newsTitle;
-    private String newsMessage;
+    private String newsBodyMessage;
+    private String newsRegardingMessage;
 }
